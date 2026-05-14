@@ -1,4 +1,4 @@
-"""# Dumbbell Detection using YOLOv9
+## Dumbbell Detection using YOLOv9
 
 This repository contains a YOLOv9-based computer vision model specifically trained to detect dumbbells in images. The project utilizes the Ultralytics framework for high-performance training and inference.
 
@@ -64,8 +64,3 @@ results = model.predict(source='path/to/image.jpg', save=True)
 * Google Colab
 
 """
-
-with open('README.md', 'w') as f:
-    f.write(readme_content)
-
-print("README.md has been generated successfully.")
